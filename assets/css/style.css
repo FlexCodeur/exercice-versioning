@@ -128,6 +128,146 @@ table {
   border-spacing: 0;
 }
 /* ------------------reset */
+* {
+  
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* premier section  */
+
+.main_une {
+  text-align: center;
+  background-color: #f9db7a;
+  width: 100vw;
+  height: auto;
+}
+
+.img_paillettes {
+  width: 100px;
+}
+.img_glitter {
+  width: 63%;
+}
+
+.img_potter {
+  width: 79%;
+}
+.main_une > h2 {
+  padding: 30px;
+  color: #009fe3;
+  font-weight: 500;
+  font-size: 2.7rem;
+  font-family: Daft-Brush;
+}
+
+.flex_generale {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flex_main_une > div {
+  height: 270px;
+  width: 200px;
+  margin: 0 10px;
+  padding: 20px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.flex_main_une > div > h2 {
+  font-size: 8px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+}
+.flex_main_une > div > p {
+  color: red;
+  font-family: "Roboto";
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+/* LES BUTTONS */
+
+.btn_main {
+  font-size: 9px;
+  padding: 7px 11px;
+  background-color: rgb(223, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn_main:hover {
+  background-color: rgb(124, 0, 0);
+}
+
+/* HOVER ZOOMING DIV  */
+
+.zoom {
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.zoom:hover {
+  transform: scale(1.03);
+}
+
+/* deuxieme section  */
+
+.main_deux > h2 {
+  padding: 30px;
+  color: #7140af;
+  font-weight: 500;
+  font-size: 2.7rem;
+  font-family: Daft-Brush;
+}
+
+.main_deux {
+  text-align: center;
+  background-color: #f0d1b8;
+  width: 100vw;
+  height: auto;
+}
+
+.main_deux > div > div > img {
+  width: 60%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main_deux > div > div > p {
+  background-color: white;
+  width: 60%;
+  transform: translate(33.4%, -50%);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-family: "Roboto";
+  padding: 7px 0;
+  color: #242b2e;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.main_deux > div > div {
+  width: 230px;
+}
+
+.zoom > p > span {
+  color: red;
+  font-size: 9px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
 /* --------------section 3-------------- */
 #section3 {
   margin: 0;
@@ -249,4 +389,12 @@ table {
   color: #e3001b;
   font-size: 14px;
   text-decoration: none;
+@font-face {
+  font-family: Daft-Brush;
+  src: url("../font/Daft-Brush.otf");
 }
+@font-face {
+  font-family: Roboto;
+  src: url("../font/Roboto-Light.ttf");
+}
+
