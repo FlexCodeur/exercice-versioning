@@ -1,0 +1,26 @@
+#section3 {
+  background-color: #ceef8e;
+}
+.title-section3 {
+  text-align: center;
+  color: #e6037c;
+  font-size: 63px;
+  padding-top: 50px;
+}
+.article {
+  display: flex;
+  justify-content: space-evenly;
+}
+.containt-article {
+  border-radius: 25px;
+  width: 250px;
+  background-color: white;
+  padding: 30px;
+}
+.img-containt {
+  display: flex;
+  justify-content: center;
+}
+.img-box {
+  width: auto;
+}
