@@ -21,7 +21,7 @@
   text-align: center;
   background-color: #f9db7a;
   width: 100vw;
-  height: 500px;
+  height: auto;
 }
 
 .img_paillettes {
@@ -56,6 +56,8 @@
   width: 200px;
   margin: 0 10px;
   padding: 20px 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 12px;
   background-color: white;
 }
@@ -101,7 +103,7 @@
 
 /* deuxieme section  */
 
-/* .main_deux > h2 {
+.main_deux > h2 {
   padding: 30px;
   color: #7140af;
   font-weight: 500;
@@ -113,5 +115,35 @@
   text-align: center;
   background-color: #f0d1b8;
   width: 100vw;
-  height: 500px;
-} */
+  height: auto;
+}
+
+.main_deux > div > div > img {
+  width: 60%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main_deux > div > div > p {
+  background-color: white;
+  width: 60%;
+  transform: translate(33.4%, -50%);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-family: "Roboto";
+  padding: 7px 0;
+  color: #242b2e;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.main_deux > div > div {
+  width: 230px;
+}
+
+.zoom > p > span {
+  color: red;
+  font-size: 9px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
