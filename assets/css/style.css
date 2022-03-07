@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "AmpleSoft";
+  src: url("fonts/FontsFree-Net-AmpleSoftPro.ttf") format("truetype");
+}
+@import url(//db.onlinewebfonts.com/c/b3389bdce2a60faff5c14a0748137625?family=Daft+Brush);
+
+@font-face {
+  font-family: "Daft Brush";
+  src: url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.eot");
+  src: url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.svg#Daft Brush")
+      format("svg");
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ensembleImg {
+  display: flex;
+}
+.imgHeader {
+  height: 20px;
+  padding: 4px;
+  border: 1px solid #e3001b;
+  border-radius: 25px;
+  background-color: #e3001b;
+  margin-left: 10px;
+}
+
+.listeHeader {
+  display: flex;
+  padding-left: 0;
+}
+
+.puceHeader {
+  margin-left: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: AmpleSoft;
+}
+
+.logoHeader {
+  height: 58px;
+}
+
+.sansPuce {
+  list-style-type: none;
+}
+
+.lienHeader {
+  text-decoration: none;
+  color: #e3001b;
+}
+
+.ensembleImg {
+  padding-left: 30px;
+}
+
+.buttonBanniere {
+  border-radius: 25px;
+  color: white;
+  background-color: #e3001b;
+  padding: 10px;
+}
+
+.banniere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c0422;
+  color: white;
+}
+
+.NightFall {
+  height: 350px;
+  margin-left: 50px;
+}
+
+.descriptif {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.titreDescriptif {
+  font-family: Daft Brush;
+  margin: 0;
+}
+
+.sousTitre{
+
+    font-family: Daft Brush;
+    font-size: 35px;
+    margin: 0;
+}
+
+.DescriptifBanniere{
+
+font-size: 15px;
+color: grey;
+
+}
