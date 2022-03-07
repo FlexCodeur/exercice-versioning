@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+@font-face {
+  font-family: Daft-Brush;
+  src: url("../font/Daft-Brush.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.main_une {
+  text-align: center;
+  background-color: #f9db7a;
+  width: 100vw;
+  height: 500px;
+}
+
+img {
+  width: 100px;
+}
+
+.main_une > h2 {
+  padding: 30px;
+  color: #009fe3;
+  font-weight: 500;
+  font-size: 2.7rem;
+  font-family: Daft-Brush;
+}
+
+.flex_main_une {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flex_main_une > div {
+  height: 270px;
+  width: 200px;
+  margin: 0 10px;
+  padding: 20px 0px;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.flex_main_une > div > h2 {
+  font-size: 7px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(92, 92, 92);
+}
+.flex_main_une > div > p {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+.btn_main {
+  font-size: 7px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
