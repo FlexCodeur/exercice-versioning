@@ -39,6 +39,7 @@
 .listeHeader {
   display: flex;
   padding-left: 0;
+  margin: 0;
 }
 
 .puceHeader {
@@ -47,6 +48,7 @@
   line-height: 1.25rem;
   font-weight: 500;
   font-family: AmpleSoft;
+  color: grey;
 }
 
 .logoHeader {
@@ -60,6 +62,13 @@
 .lienHeader {
   text-decoration: none;
   color: #e3001b;
+  height: 100%;
+}
+
+.lienHeader:hover{
+
+    border-bottom: 2px solid #e3001b;
+    
 }
 
 .ensembleImg {
@@ -97,16 +106,13 @@
   margin: 0;
 }
 
-.sousTitre{
-
-    font-family: Daft Brush;
-    font-size: 35px;
-    margin: 0;
+.sousTitre {
+  font-family: Daft Brush;
+  font-size: 35px;
+  margin: 0;
 }
 
-.DescriptifBanniere{
-
-font-size: 15px;
-color: grey;
-
+.DescriptifBanniere {
+  font-size: 15px;
+  color: grey;
 }
