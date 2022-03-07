@@ -1,0 +1,201 @@
+/******** Font Family ********/
+@font-face {
+  font-family: "AmpleSoft";
+  src: url("../fonts/AmpleSoftPro-Regular.ttf"),
+    url("../fonts/AmpleSoftPro-Medium.ttf");
+}
+
+/******** RESET CSS ********/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  box-sizing: border-box;
+  line-height: 1;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+}
+
+:root {
+  --green: #7ad03a;
+  --red: #a00;
+  --orange: #ffba00;
+  --blue: #2ea2cc;
+  --primary: #a46497;
+  --primary-text: white;
+  --secondary: #ebe9eb;
+  --secondary-text: #515151;
+  --highlight: #77a464;
+  --highligh-text: white;
+  --content-bg: #fff;
+  --subtext: #767676;
+  --reassurance: #83939a;
+  --newsletter: #f2f6f7;
+}
+
+/******** Title Style CSS ********/
+.title3 {
+  font-family: "AmpleSoft";
+  font-weight: 600;
+}
+
+/******** Section Réassurance ********/
+.reassurance {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+.reassuranceItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reassuranceItems i {
+  font-size: 26px;
+  color: var(--reassurance);
+}
+h3.title3 {
+  font-family: "AmpleSoft";
+  font-weight: 600;
+  margin-top: 25px;
+  padding: 15px 0;
+}
+
+/******** Section Newsletter ********/
+.newsletter {
+  background-color: var(--newsletter);
+  padding: 30px 10px 30px;
+}
+.newsletterContent {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 70%;
+  margin: 0 auto;
+}
