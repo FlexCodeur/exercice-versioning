@@ -26,9 +26,24 @@
 .img-box {
   width: auto;
 }
-.title-article{
-    font-size: ;
-    text-align: center;
-    color: #E3001B;
-
+.title-article {
+  font-size: 16px;
+  text-align: center;
+  color: #e3001b;
+}
+.descrition-article {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  color: #83939a;
+}
+.containt-button {
+  display: flex;
+  justify-content: center;
+}
+.button-sec3 {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e3001b;
 }
