@@ -163,6 +163,7 @@ img {
   --reassurance: #83939a;
   --inputBorder: #d9e5e8;
   --newsletter: #f2f6f7;
+  --footer: #48555b;
 }
 
 /******** Title Style CSS ********/
@@ -204,7 +205,7 @@ h3.title3 {
 /******** Section Newsletter ********/
 .newsletter {
   background-color: var(--newsletter);
-  padding: 30px 10px 30px;
+  padding: 30px 10px 120px;
 }
 .newsletterContent {
   display: flex;
@@ -259,7 +260,7 @@ h3.title3 {
   font-size: 14px;
   line-height: 20px;
 }
-.newsletterFrom input[type="checkbox"] {
+.newsletterFrom input[type="checkbox" i] {
   width: 20px;
   height: 20px;
   border-radius: 15px;
@@ -267,4 +268,30 @@ h3.title3 {
 }
 .newsletterLinks {
   font-weight: 600;
+}
+
+/* Footer Links */
+.footerMenu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 15px;
+}
+.footerMenuContent {
+  width: 180px;
+}
+.footerMenuContent:not(:last-child) {
+  margin-right: 40px;
+}
+.footerMenuContent > h3.title3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.footerMenuContent ul > li {
+  color: var(--footer);
+  font-family: "AmpleSoft", sans-serif;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
 }
