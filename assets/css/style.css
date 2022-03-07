@@ -275,6 +275,7 @@ h3.title3 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  position: relative;
   padding-top: 15px;
 }
 .footerMenuContent {
@@ -294,4 +295,19 @@ h3.title3 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 14px;
+}
+.socialIcons {
+  position: absolute;
+  color: var(--red);
+  right: 15%;
+  bottom: -25px;
+  width: 15%;
+}
+.socialIcons ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.socialIcons ul > li > i {
+  font-size: 25px;
 }
