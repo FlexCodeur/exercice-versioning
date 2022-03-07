@@ -34,12 +34,20 @@
                     <h3 class="title3">Inscription à la newsletter</h3>
                     <p>Inscrivez-vous et recevez régulièrement un concentré de bonnes idées, des offres, des conseils malins et des activités créatives pour vos enfants. Profitez de -10% sur votre première commande en vous inscrivant à notre newsletter !</p>
                 </div>
-                <form action="">
+                <form action="" class="newsletterFrom">
                     <input type="email">
                     <button class="btnSolid" type="submit">S'abonner <i class="fa-solid fa-envelope"></i></button>
                     <div class="rgpdBox">
-                        <input type="checkbox" id="rgpd" required>
-                        <label for="rgpd">En complétant ce formulaire, vous acceptez la Politique de confidentialité de Maped. Votre adresse e-mail est utilisée uniquement pour vous envoyer les lettres d’information de Maped et Mapiwee. Vous pouvez à tout moment vous désabonner et faire valoir vos droits sur vos données personnelles. Pour plus d’information, consultez notre politique de confidentialité.</label>
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="rgpd" required>
+                            </li>
+                            <li>
+                                <label for="rgpd">En complétant ce formulaire, vous acceptez la <a class="newsletterLinks" href="#">Politique de confidentialité</a> de Maped. Votre adresse e-mail est utilisée uniquement pour vous envoyer les lettres d’information de Maped et Mapiwee. Vous pouvez à tout moment vous désabonner et faire valoir vos droits sur vos données personnelles. Pour plus d’information, consultez notre <a class="newsletterLinks" href="">politique de confidentialité</a>.</label>
+                            </li>
+                        </ul>
+                        
+                        
                     </div>
                 </form>
             </div>
@@ -49,6 +57,6 @@
     <footer>
 
     </footer>
-    <script src="assets/js/"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
