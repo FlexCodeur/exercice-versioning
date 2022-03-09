@@ -273,7 +273,16 @@ table {
   margin: 0;
   background-color: #ceef8e;
 }
+.hover-box{
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.hover-box:hover{
+  transform: scale(1.03);
+}
+
 .title-section3 {
+  font-family: "Daft-Brush";
   text-align: center;
   color: #e6037c;
   font-size: 63px;
@@ -322,15 +331,47 @@ table {
   color: #e3001b;
 }
 /* -----------section 4-------------- */
+/*-----Buttun end section 4 */
+.button_content_end{
+  display: flex;
+  justify-content: center;
+}
+.button_end{
+  border-radius: 25px;
+  padding: 17px 40px;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+  background-color: #EAD5E4;
+  color: #e3001b;
+  margin: 50px 0px;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+}
+.button_end:hover{
+  background-color: #E8C4D2;
+  overflow: hidden;
+  
+
+}
+/* ----------------------------- */
 #section4 {
   background-color: #e2dff0;
 }
-.title-section4 {
+.title-section4-2{
+  font-family: "Daft-Brush";
   text-align: center;
   color: #7368b1;
-  font-size: 63px;
-  margin-bottom: 50px;
+  font-size: 40px;
   padding-top: 50px;
+}
+.title-section4 {
+  font-family: "Daft-Brush";
+  text-align: center;
+  color: #7368b1;
+  font-size: 78px;
+  margin-bottom: 50px;
+ 
 }
 
 .article-section4 {
@@ -389,12 +430,14 @@ table {
   color: #e3001b;
   font-size: 14px;
   text-decoration: none;
+}
+
 @font-face {
   font-family: Daft-Brush;
   src: url("../font/Daft-Brush.otf");
 }
+
 @font-face {
   font-family: Roboto;
   src: url("../font/Roboto-Light.ttf");
 }
-
