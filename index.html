@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link href="//db.onlinewebfonts.com/c/b3389bdce2a60faff5c14a0748137625?family=Daft+Brush" rel="stylesheet" type="text/css"/>
+    <link
+      href="//db.onlinewebfonts.com/c/b3389bdce2a60faff5c14a0748137625?family=Daft+Brush"
+      rel="stylesheet"
+      type="text/css"
+    />
     <title>Exercice Versioning</title>
   </head>
   <body>
@@ -25,18 +29,45 @@
 
         <div class="navBar">
           <ul class="listeHeader">
-            <li class="puceHeader sansPuce"><a class="lienHeader" href=""
-                >Les produits</a>
+            <li class="puceHeader sansPuce">
+              <a id="Lien1" class="lienHeader" href="">Les produits</a>
+              <ul id="sousMenu1" class="sousDesign sous1 displayNone">
+                <li><a class="lienSousmenu" href="#">Les collections</a></li>
+                <li><a class="lienSousmenu" href="#">Scolaire</a></li>
+                <li><a class="lienSousmenu" href="#">Coloriage</a></li>
+                <li><a class="lienSousmenu" href="#">Ecriture</a></li>
+                <li><a class="lienSousmenu" href="#">Jeux et créations</a></li>
+                <li><a class="lienSousmenu" href="#">Boire et manger nomade</a></li>
+                <li><a class="lienSousmenu" href="#">Bureau et encadrement</a></li>
+              </ul>
             </li>
 
-            <li class="puceHeader"><a class="lienHeader" href=""
-                >Bons Plans</a></li>
-            
-            <li class="puceHeader"><a class="lienHeader" href=""
-                >Blog Mapiwee</a></li>
+            <li class="puceHeader">
+              <a id="Lien2" class="lienHeader" href="">Bons Plans</a>
+              <ul id="sousMenu1" class="sousDesign sous2 displayNone">
+                <li><a class="lienSousmenu" href="#">Opération promotionnelles</a></li>
+                <li><a class="lienSousmenu" href="#">Jeux Concours</a></li>
+                <li><a class="lienSousmenu" href="#">Actualités</a></li>
+                <li><a class="lienSousmenu" href="#">Fiches d'activités</a></li>
+              </ul>
+            </li>
 
-            <li class="puceHeader"><a class="lienHeader" href=""
-                >Notre groupe </a></li>
+            <li id="Lien3" class="puceHeader">
+              <a class="lienHeader" href="">Blog Mapiwee</a>
+            </li>
+
+            <li id="Lien4" class="puceHeader">
+              <a class="lienHeader" href="">Notre groupe </a>
+              <ul id="sousMenu3" class="sousDesign sous1 displayNone">
+                <li><a class="lienSousmenu" href="#">Qui sommes nous ?</a></li>
+                <li><a class="lienSousmenu" href="#">Innovation</a></li>
+                <li><a class="lienSousmenu" href="#">Engagement solidaire</a></li>
+                <li><a class="lienSousmenu" href="#">Environnement</a></li>
+                <li><a class="lienSousmenu" href="#">Fonds 1% For Education</a></li>
+                <li><a class="lienSousmenu" href="#">Offres Emploi</a></li>
+              </ul>
+            </li>
+            
           </ul>
         </div>
 
@@ -59,12 +90,14 @@
 
       <div class="banniere">
         <div class="descriptif">
-        <div>
-          <h3 class="titreDescriptif">NOUVELLE COLLECTION </h3>
-          <h3 class="sousTitre">NIGHTFALL</h3>
-        </div>
+          <div>
+            <h3 class="titreDescriptif">NOUVELLE COLLECTION</h3>
+            <h3 class="sousTitre">NIGHTFALL</h3>
+          </div>
 
-          <p class="DescriptifBanniere">La collection qui affirme son style !</p>
+          <p class="DescriptifBanniere">
+            La collection qui affirme son style !
+          </p>
 
           <button class="buttonBanniere" type="button">
             Découvrir les produits
@@ -84,6 +117,6 @@
     <main></main>
     <!-- Code the footer here -->
     <footer></footer>
-    <script src="assets/js/"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

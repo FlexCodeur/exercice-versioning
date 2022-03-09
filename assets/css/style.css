@@ -24,6 +24,12 @@
   align-items: center;
 }
 
+.header{
+
+position:relative;
+
+}
+
 .ensembleImg {
   display: flex;
 }
@@ -40,6 +46,7 @@
   display: flex;
   padding-left: 0;
   margin: 0;
+  padding: 25px 0px;
 }
 
 .puceHeader {
@@ -65,10 +72,8 @@
   height: 100%;
 }
 
-.lienHeader:hover{
-
-    border-bottom: 2px solid #e3001b;
-    
+.lienHeader:hover {
+  border-bottom: 2px solid #e3001b;
 }
 
 .ensembleImg {
@@ -115,4 +120,38 @@
 .DescriptifBanniere {
   font-size: 15px;
   color: grey;
+}
+
+.sousDesign {
+  /*display: none;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  list-style-type: none;
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  line-height: 25px;
+}
+
+.sous1 {
+    padding:15px 40px 100px 140px;
+}
+
+.sous2 {
+padding: 0px 0px 25px 140px;
+}
+
+
+.lienSousmenu {
+  text-decoration: none;
+  color: grey;
+}
+
+.displayNone {
+  display: none;
 }
