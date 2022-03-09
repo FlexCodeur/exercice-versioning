@@ -1,15 +1,292 @@
 @font-face {
-  font-family: Daft-Brush;
-  src: url("../font/Daft-Brush.otf");
+  font-family: "AmpleSoft";
+  src: url("fonts/FontsFree-Net-AmpleSoftPro.ttf") format("truetype");
 }
+@import url(//db.onlinewebfonts.com/c/b3389bdce2a60faff5c14a0748137625?family=Daft+Brush);
+
 @font-face {
-  font-family: Roboto;
-  src: url("../font/Roboto-Light.ttf");
+  font-family: "Daft Brush";
+  src: url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.eot");
+  src: url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/b3389bdce2a60faff5c14a0748137625.svg#Daft Brush")
+      format("svg");
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-* {
+.header{
+
+position:relative;
+
+}
+
+.ensembleImg {
+  display: flex;
+}
+.imgHeader {
+  height: 20px;
+  padding: 4px;
+  border: 1px solid #e3001b;
+  border-radius: 25px;
+  background-color: #e3001b;
+  margin-left: 10px;
+}
+
+.listeHeader {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  padding: 25px 0px;
+}
+
+.puceHeader {
+  margin-left: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: AmpleSoft;
+  color: grey;
+}
+
+.logoHeader {
+  height: 58px;
+}
+
+.sansPuce {
+  list-style-type: none;
+}
+
+.lienHeader {
+  text-decoration: none;
+  color: #e3001b;
+  height: 100%;
+}
+
+.lienHeader:hover {
+  border-bottom: 2px solid #e3001b;
+}
+
+.ensembleImg {
+  padding-left: 30px;
+}
+
+.buttonBanniere {
+  border-radius: 25px;
+  color: white;
+  background-color: #e3001b;
+  padding: 10px;
+}
+
+.banniere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c0422;
+  color: white;
+}
+
+.NightFall {
+  height: 350px;
+  margin-left: 50px;
+}
+
+.descriptif {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.titreDescriptif {
+  font-family: Daft Brush;
+  margin: 0;
+}
+
+.sousTitre {
+  font-family: Daft Brush;
+  font-size: 35px;
+  margin: 0;
+}
+
+.DescriptifBanniere {
+  font-size: 15px;
+  color: grey;
+}
+
+.sousDesign {
+  /*display: none;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  list-style-type: none;
+  position: absolute;
+  z-index: 1000;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  line-height: 25px;
+}
+
+.sous1 {
+    padding:15px 40px 100px 140px;
+}
+
+.sous2 {
+padding: 0px 0px 25px 140px;
+}
+
+
+.lienSousmenu {
+  text-decoration: none;
+  color: grey;
+}
+
+.displayNone {
+  display: none;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ------------------reset */
+* {
+  
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -146,4 +423,493 @@
   font-size: 9px;
   font-weight: bold;
   font-family: "Roboto";
+}
+
+/* --------------section 3-------------- */
+#section3 {
+  margin: 0;
+  background-color: #ceef8e;
+}
+.hover-box{
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.hover-box:hover{
+  transform: scale(1.03);
+}
+
+.title-section3 {
+  font-family: "Daft-Brush";
+  text-align: center;
+  color: #e6037c;
+  font-size: 63px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.article {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+
+.containt-article {
+  border-radius: 25px;
+  width: 250px;
+  background-color: white;
+  padding: 30px;
+}
+.img-containt {
+  display: flex;
+  justify-content: center;
+}
+.img-box {
+  width: auto;
+}
+.title-article {
+  font-size: 16px;
+  text-align: center;
+  color: #e3001b;
+}
+.descrition-article {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  color: #83939a;
+}
+.containt-button {
+  display: flex;
+  justify-content: center;
+}
+.button-sec3 {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #e3001b;
+}
+/* -----------section 4-------------- */
+/*-----Buttun end section 4 */
+.button_content_end{
+  display: flex;
+  justify-content: center;
+}
+.button_end{
+  border-radius: 25px;
+  padding: 17px 40px;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+  background-color: #EAD5E4;
+  color: #e3001b;
+  margin: 50px 0px;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+}
+.button_end:hover{
+  background-color: #E8C4D2;
+  overflow: hidden;
+  
+
+}
+/* ----------------------------- */
+#section4 {
+  background-color: #e2dff0;
+}
+.title-section4-2{
+  font-family: "Daft-Brush";
+  text-align: center;
+  color: #7368b1;
+  font-size: 40px;
+  padding-top: 50px;
+}
+.title-section4 {
+  font-family: "Daft-Brush";
+  text-align: center;
+  color: #7368b1;
+  font-size: 78px;
+  margin-bottom: 50px;
+ 
+}
+
+.article-section4 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.containt-article-sec4 {
+  width: 400px;
+  background-color: white;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.title-article-sec4 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+.link-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 40px 30px;
+}
+
+.bg-img-article {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 350px;
+}
+.bg-img-article > div {
+  padding: 30px 0 0 30px;
+}
+.bg-img-article1 {
+  background-image: url(../img/item1.jpeg);
+}
+.bg-img-article2 {
+  background-image: url(../img/item2.jpg);
+}
+.bg-img-article3 {
+  background-image: url(../img/item3.jpeg);
+}
+.link-bg-img {
+  font-size: 13px;
+  color: white;
+  border-radius: 50px;
+  padding: 7px 15px;
+  text-decoration: none;
+  background-color: #83939a;
+  text-transform: uppercase;
+}
+.button-article-sec {
+  color: #e3001b;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: Daft-Brush;
+  src: url("../font/Daft-Brush.otf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../font/Roboto-Light.ttf");
+}
+
+/******** Font Family ********/
+@font-face {
+  font-family: "AmpleSoft";
+  src: url("../fonts/AmpleSoftPro-Regular.ttf"),
+    url("../fonts/AmpleSoftPro-Medium.ttf");
+}
+@font-face {
+  font-family: "HelveticaNueueLTCom";
+  src: url("../fonts/HelveticaNeueLTCom-Lighter.ttf"),
+    url("../fonts/HelveticaNeueLTCom-Light.ttf"),
+    url("../fonts/HelveticaNeueLTCom-Medium.ttf");
+}
+
+/******** RESET CSS ********/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  box-sizing: border-box;
+  line-height: 1;
+  font-family: "HelveticaNueueLTCom", sans-serif;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+}
+
+/******** Colors Variables ********/
+:root {
+  --green: #7ad03a;
+  --red: #e3001b;
+  --orange: #ffba00;
+  --blue: #2ea2cc;
+  --primary: #a46497;
+  --primary-text: white;
+  --secondary: #ebe9eb;
+  --secondary-text: #515151;
+  --highlight: #77a464;
+  --highligh-text: white;
+  --content-bg: #fff;
+  --subtext: #767676;
+  --reassurance: #83939a;
+  --inputBorder: #d9e5e8;
+  --newsletter: #f2f6f7;
+  --footer: #48555b;
+}
+
+/******** Title Style CSS ********/
+.title3 {
+  font-family: "AmpleSoft";
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/******** Section Réassurance ********/
+.reassurance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+.reassuranceItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.reassuranceItems:not(:last-child) {
+  margin-right: 150px;
+}
+.reassuranceItems i {
+  font-size: 28px;
+  color: var(--reassurance);
+  padding-bottom: 20px;
+}
+h3.title3 {
+  font-family: "AmpleSoft", sans-serif;
+  font-weight: 600;
+  margin-top: 25px;
+  padding: 5px 0;
+}
+
+/******** Section Newsletter ********/
+.newsletter {
+  background-color: var(--newsletter);
+  padding: 30px 10px 120px;
+}
+.newsletterContent {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 70%;
+  margin: 0 auto;
+}
+.newsletterText {
+  color: var(--secondary-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  padding-right: 40px;
+}
+
+/******** Newsletter Form ********/
+.newsletterFrom {
+  width: 100%;
+  padding-right: 40px;
+}
+.newsletterFrom input[type="email"] {
+  width: 400px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid var(--inputBorder);
+}
+.newsletterFrom input[type="email"],
+.btnSolid {
+  margin-bottom: 15px;
+}
+.btnSolid {
+  font-size: 16px;
+  background-color: var(--red);
+  color: var(--content-bg);
+  border: none;
+  padding: 15px 35px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.rgpdBox {
+  color: var(--reassurance);
+}
+.rgpdBox ul {
+  display: flex;
+}
+.rgpdBox > ul > li:not(:first-child) {
+  margin-left: 15px;
+}
+.rgpdBox > ul > li > label {
+  font-size: 14px;
+  line-height: 20px;
+}
+.newsletterFrom input[type="checkbox" i] {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  border: 2px solid var(--inputBorder);
+}
+.newsletterLinks {
+  font-weight: 600;
+}
+
+/* Footer Links */
+.footerMenu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  padding-top: 15px;
+}
+.footerMenuContent {
+  width: 180px;
+}
+.footerMenuContent:not(:last-child) {
+  margin-right: 40px;
+}
+.footerMenuContent > h3.title3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+.footerMenuContent ul > li {
+  color: var(--footer);
+  font-family: "AmpleSoft", sans-serif;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+.socialIcons {
+  position: absolute;
+  color: var(--red);
+  right: 15%;
+  bottom: -25px;
+  width: 15%;
+}
+.socialIcons ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.socialIcons ul > li > i {
+  font-size: 25px;
+>>>>>>> footer
 }
