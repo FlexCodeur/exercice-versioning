@@ -598,6 +598,7 @@ table {
   font-family: Roboto;
   src: url("../font/Roboto-Light.ttf");
 }
+<<<<<<< HEAD
 
 /******** Font Family ********/
 @font-face {
@@ -913,3 +914,5 @@ h3.title3 {
   font-size: 25px;
 >>>>>>> footer
 }
+=======
+>>>>>>> 8ef64987a9e830e0d7e3785d92cfc65ccaa3d393
